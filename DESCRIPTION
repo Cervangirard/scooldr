@@ -1,0 +1,20 @@
+Package: scooldr
+Title: Interact with Scoold API
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Cervan",
+           family = "Girard",
+           role = c("aut", "cre"),
+           email = "cervan.girard@gmail.com")
+Description: Allow admin to interact with his Scoold app from R.
+License: MIT + file LICENSE
+Imports: 
+    getPass,
+    httr,
+    keyring,
+    magrittr,
+    purrr
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
